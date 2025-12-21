@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safia Lamri| Data & Culture</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">S.L</div>
+      <ul class="nav-links">
+        <li><a href="#about">Philosophy</a></li>
+        <li><a href="#projects">Selected Works</a></li>
+        <li><a href="#engagements">Commitment & Leadership</a></li>
+        <li><a href="#experience">Journey</a></li>
+        <li>
+          <a href="mailto:safia_lamri@psl.eu" class="btn-contact"
+            >Get in Touch</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content reveal">
+        <p class="overline">Data Science & Digital Humanities</p>
+        <h1>
+          Decoding Culture <br />
+          <span class="italic-accent">through Data.</span>
+        </h1>
+        <p class="intro-text">
+          I operate at the intersection of quantitative analysis and cultural
+          sensitivity. Using algorithms to reveal human patterns, and narrative
+          design to give meaning to numbers.
+        </p>
+        <a href="#projects" class="btn-gold">View Portfolio</a>
+      </div>
+    </header>
+
+    <section id="about" class="philosophy">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>My Approach</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="grid-3">
+          <div class="column reveal">
+            <span class="num">01.</span>
+            <h3>Analytical Rigor</h3>
+            <p>
+              Leveraging NLP, statistical modeling, and Python to process
+              complex datasets, from historical archives to modern advertising.
+            </p>
+          </div>
+          <div class="column reveal">
+            <span class="num">02.</span>
+            <h3>Behavioral Insight</h3>
+            <p>
+              Designing experimental protocols to understand attention, memory,
+              and perception in constrained environments.
+            </p>
+          </div>
+          <div class="column reveal">
+            <span class="num">03.</span>
+            <h3>Creative Narration</h3>
+            <p>
+              Translating raw data into immersive experiences, visual novels,
+              and virtual exhibitions that resonate with audiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Selected Works</h2>
+          <p class="subtitle">A curation of technical and creative projects.</p>
+        </div>
+        <div class="filter-container reveal">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="data">Data & Research</button>
+    <button class="filter-btn" data-filter="creative">Creative & Design</button>
+    <button class="filter-btn" data-filter="strategy">Strategy & Society</button>
+</div>
+
+        <div class="portfolio-grid">
+            <article class="project-card reveal" data-id="data-market" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Web Dev / Market Intelligence</div>
+    <h3>The Data Market Observatory</h3>
+    <p class="card-excerpt">
+      A dedicated website providing a comprehensive global vision of the data industry.
+    </p>
+    <button class="btn-text">Visit Website &rarr;</button>
+  </div>
+</article>
+<article class="project-card reveal" data-id="normativity" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Research / NLP</div>
+    <h3>Cultural Normativity</h3>
+    <p class="card-excerpt">Tracing 1,400 years of "tightness" in Arab-Islamic texts using big data.</p>
+    <a href="Postuler/UROP.pdf" target="_blank" class="social-btn outline">Report</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="auto-ads" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Data Analysis / Semiotics</div>
+    <h3>The Automotive Myth</h3>
+    <p class="card-excerpt">Analyzing 8,938 ads to map the shift from performance to ethical luxury.</p>
+            <a href="Postuler/pub.pdf" target="_blank" class="social-btn outline">Report</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="marie-antoinette" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Game Design / History</div>
+    <h3>Marie-Antoinette VN</h3>
+    <p class="card-excerpt">Interactive narrative engine (Ren'Py) blending historical fact and fiction.</p>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="memory-game" data-category="strategy">
+  <div class="card-inner">
+    <div class="card-category">Cognitive Science</div>
+    <h3>Visual Memory & Color</h3>
+    <p class="card-excerpt">Experimental game design to measure attention strategies.</p>
+                <a href="Postuler/memory.pdf" target="_blank" class="social-btn outline">Questionnaire</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="zaman" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Curating / Virtual Exhibition</div>
+    <h3>Shadow of Zaman</h3>
+    <p class="card-excerpt">Spatializing the concept of Time through virtual scenography.</p>
+    <a href="Postuler/ombre.pdf" target="_blank" class="social-btn outline">Presentation of the exposition</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="films-pred" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Machine Learning</div>
+    <h3>Predicting Romance</h3>
+    <p class="card-excerpt">Neural networks trained to detect plot themes from textual summaries.</p>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="linguistics" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Sociolinguistics</div>
+    <h3>Dialects & Identity</h3>
+    <p class="card-excerpt">Analyzing how 133 speakers adjust dialect usage based on social context.</p>
+    <a href="https://github.com/Safia1602/2024-projet-final-LAMRI-Safia" target="_blank" class="social-btn outline">GitHub</a>
+    <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="kanak" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Data Visualization</div>
+    <h3>Dispersed Heritage</h3>
+    <p class="card-excerpt">Visualizing colonial bias and silence in the Quai Branly archives.</p>
+        <a href="Postuler/visu.pdf" target="_blank" class="social-btn outline">Report</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="pixels" data-category="strategy">
+  <div class="card-inner">
+    <div class="card-category">Audience Research</div>
+    <h3>Exhibition "PIXELS"</h3>
+    <p class="card-excerpt">Behavioral study on visitor engagement in immersive digital art spaces.</p>
+        <a href="Postuler/observation.pdf" target="_blank" class="social-btn outline">Observation Report</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="four-colors" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Design Fiction</div>
+    <h3>Four-Colour System</h3>
+    <p class="card-excerpt">Inventing a base-4 numeric system for a fictional civilization.</p>
+                <a href="Postuler/num.pdf" target="_blank" class="social-btn outline">Report</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="joyce" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Creative Adaptation</div>
+    <h3>James Joyce: A Painful Case</h3>
+    <p class="card-excerpt">Translating literary interiority into visual and sensory language.</p>
+            <a href="Postuler/diapo_lit.pdf" target="_blank" class="social-btn outline">Presentation</a>
+            <a href="Postuler/note.pdf" target="_blank" class="social-btn outline">Intention Note</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="perfume-market" data-category="strategy">
+  <div class="card-inner">
+    <div class="card-category">Art Market Analysis</div>
+    <h3>Vintage Perfume Bottles</h3>
+    <p class="card-excerpt">Economic and historical analysis of auction trends and museum acquisitions.</p>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="franco-american" data-category="data">
+  <div class="card-inner">
+    <div class="card-category">Network Analysis</div>
+    <h3>Franco-American Networks</h3>
+    <p class="card-excerpt">Mapping intellectual circulation in Art History departments.</p>
+               <a href="Postuler/projet_fr.pdf" target="_blank" class="social-btn outline">Project Report</a>
+  <a href="https://safia1602.github.io/art_history_network/" target="_blank" class="social-btn outline">Graphics</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+
+<article class="project-card reveal" data-id="podcast" data-category="creative">
+  <div class="card-inner">
+    <div class="card-category">Science Communication</div>
+    <h3>Podcast: Grothendieck</h3>
+    <p class="card-excerpt">Writing and producing audio content for the ENS mathematics conference.</p>
+   <a href="Postuler/podcast.wav" target="_blank" class="social-btn outline">Podcast</a>
+        <br>
+    <br>
+    <button class="btn-text">Explore Case Study &rarr;</button>
+  </div>
+</article>
+        </div>
+      </div>
+
+<section id="research-highlight" class="research-section">
+        <div class="container">
+            <div class="split-layout reveal">
+                <div class="text-content">
+                    <span class="overline">Academic Excellence</span>
+                    <h2>Institut Jean Nicod <span class="italic-accent">(ENS-PSL)</span></h2>
+                    <p class="role-title">Research Intern | NLP & Cultural History</p>
+                    <p class="description">
+                        Working within one of France's leading cognitive science laboratories, I conducted a large-scale study on cultural normativity. 
+                        By analyzing 1,400 years of Arab-Islamic texts, I developed a "tightness score" to measure the evolution of social norms.
+                    </p>
+                    <ul class="key-points">
+                        <li>Processing massive historical datasets (OpenITI).</li>
+                        <li>Lexical modeling & "Bag-of-Concepts" framework.</li>
+                        <li>Bridging quantitative data with historical interpretation.</li>
+                    </ul>
+                </div>
+                <div class="visual-content">
+                    <div class="abstract-circle">
+                        <span class="data-text">1400 Years<br>of Data</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="engagements" class="engagements-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Commitment & Leadership</h2>
+                <div class="separator"></div>
+                <p class="subtitle">Beyond academia: mentorship, excellence, and community.</p>
+            </div>
+
+<div class="pyramid-container">
+    
+    <div class="pyramid-level top-level reveal">
+        <div class="engagement-card gold-border" data-id="fondation-florence">
+            <div class="icon">✨</div>
+            <h3>Fondation Florence</h3>
+            <p class="role">Young Talent</p>
+            <p class="excerpt">
+                Selected as a beneficiary of this foundation dedicated to equal opportunity and excellence. 
+                A recognition of my potential and my commitment to social impact.
+            </p>
+            <button class="btn-text">Read my statement &rarr;</button>
+        </div>
+        <div class="connector-line"></div>
+    </div>
+
+    <div class="pyramid-level bottom-level reveal">
+        
+        <div class="engagement-card" data-id="eddmon">
+            <div class="icon">🎓</div>
+            <h3>Eddmon</h3>
+            <p class="role">Academic Tutor</p>
+            <p class="excerpt">
+                Mentoring students through personalized educational support. 
+                Developing patience, adaptability, and the ability to simplify complex concepts.
+            </p>
+            <button class="btn-text">Read details &rarr;</button>
+        </div>
+
+        <div class="engagement-card" data-id="les-ombres">
+            <div class="icon">🎭</div>
+            <h3>Les Ombres</h3>
+            <p class="role">Active Member</p>
+            <p class="excerpt">
+                Engagement within a cultural association, fostering artistic dialogue and organizing events.
+                Cultivating a collective vision of art and culture.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+    </section>
+
+<footer id="experience">
+      <div class="container reveal">
+        
+        <div class="footer-grid">
+          
+          <div class="footer-col">
+            <h3>Academic Background</h3>
+            <ul class="footer-list">
+              <li>
+                <span class="highlight-gold">ENS-PSL University- Lycée Louis-le-Grand</span>
+                <p class="small-text">B.Sc. in Data Sciences, Arts & Cultures <br><em>(2022 - Present)</em></p>
+              </li>
+              <li>
+                <span class="highlight-gold">Institut Jean Nicod (ENS)</span>
+                <p class="small-text">Research Intern in NLP & Cultural History <br><em>(2024)</em></p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Core Expertise</h3>
+            <div class="skills-wrapper">
+              <div class="skill-group">
+                <h4>Technical & Data</h4>
+                <p>Python, NLP, Statistics, Scikit-Learn, Ren'Py, Git.</p>
+              </div>
+              <div class="skill-group">
+                <h4>Methodology & Creative</h4>
+                <p>Experimental Design, Curating, Narrative Design, Behavioral Analysis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Let's Connect</h3>
+            <p class="contact-intro">
+              Always open to discussing data, culture, and new narratives.
+            </p>
+            <div class="social-links">
+              <a href="http://linkedin.com/in/safia-lamri-6342772b4 target="_blank" class="social-btn">LinkedIn</a>
+              <a href="https://github.com/Safia1602" target="_blank" class="social-btn">GitHub</a>
+              <a href="CV_EN.pdf" target="_blank" class="social-btn outline">Download CV</a>
+            </div>
+            <a href="mailto:safia.lamri@psl.eu" class="email-link">safia.lamri@psl.eu</a>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 S. - Designed with precision & passion.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="modal-overlay" class="modal-overlay">
+      <div class="modal-container">
+        <button class="close-modal">&times;</button>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
