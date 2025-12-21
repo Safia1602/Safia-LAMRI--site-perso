@@ -47,7 +47,7 @@ const projectsData = {
             <p>The results revealed not a historical rupture, but a gradual, continuous increase in normative density over the centuries—a slow process of cultural consolidation rather than a reaction to specific events.</p>
             <p><em>This research deepened my ability to work with large, noisy datasets and translate quantitative findings into historical insights.</em></p>
                    <br>
-    <br> <a href="UROP.pdf" target="_blank" class="social-btn outline">Report</a>
+    <br> <a href="assets/UROP.pdf" target="_blank" class="social-btn outline">Report</a>
         `,
   },
   "auto-ads": {
@@ -161,9 +161,9 @@ const projectsData = {
             </ul>
             
             <p><em>"The exhibition challenged me to think simultaneously about content, form, and audience."</em></p>
-                <a href="article.pdf" target="_blank" class="social-btn outline">article</a>
-                <a href="modelisation.mp4" target="_blank" class="social-btn outline">video</a>
-                <a href="expo.pdf" target="_blank" class="social-btn outline">Description of the exposition</a>
+                <a href="assets/article.pdf" target="_blank" class="social-btn outline">article</a>
+                <a href="assets/modelisation.mp4" target="_blank" class="social-btn outline">video</a>
+                <a href="assets/expo.pdf" target="_blank" class="social-btn outline">Description of the exposition</a>
     <br>
     <br>
             <p><a href="https://odhn.ens.psl.eu/newsroom/invitation-aux-voyages-numeriques" target="_blank" style="color:var(--gold);">View at ODHN &rarr;</a></p>
@@ -249,7 +249,6 @@ const projectsData = {
   },
 
   // --- ENGAGEMENTS (Leadership Section) ---
-  // --- ENGAGEMENTS (Leadership Section - DETAILED) ---
 
   "fondation-florence": {
     title: "Fondation Florence",
