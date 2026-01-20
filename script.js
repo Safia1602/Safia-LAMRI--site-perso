@@ -15,7 +15,7 @@ const projectsData = {
             <p>You can explore the live platform and navigate through the market analysis using the link below:</p>
             
             <p style="margin-top: 2rem;">
-                <a href="https://VOTRE-LIEN-ICI.com" target="_blank" style="
+                <a href="https://datauniverse.onrender.com" target="_blank" style="
                     display: inline-block;
                     background-color: var(--bordeaux);
                     color: var(--white);
